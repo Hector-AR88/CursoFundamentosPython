@@ -4,9 +4,10 @@ matriz = [
     [7,8,9]
 ]
 
+# print(matriz[0])
 # print(matriz[0][1])
 
-for row in matriz:
-    print(row)
-    for column in row:
-        print(column)
+for r in matriz:
+    print(r)
+    for c in r:
+        print(c)

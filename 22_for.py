@@ -20,4 +20,22 @@
 # for key, value in product.items():
 #     print(key, '=>', value)
 
+people = [
+    {
+        'name':'Hector',
+        'age':'34'
+    },
+    {
+        'name':'Arumy',
+        'age':'23'
+    },
+    {
+        'name':'Ruby',
+        'age':'50'
+    }
+]
 
+for person  in people:
+    pos=int(people.index(person))
+    print(f'Person # {pos+1}')
+    print(f"name => {person['name']}")   
